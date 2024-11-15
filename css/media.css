@@ -1,0 +1,131 @@
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+header .content h1 {
+        font-size: 4.5rem;
+    }
+
+    header .content p {
+        font-size: 2.5rem;
+    }
+
+        @keyframes text1 {
+    
+            0%,
+            25%,
+            50%,
+            75%,
+            100% {
+                width: 0;
+            }
+    
+            5%,
+            20% {
+                width: 12rem;
+            }
+        }
+    
+        @keyframes text2 {
+    
+            0%,
+            25%,
+            50%,
+            75%,
+            100% {
+                width: 0;
+            }
+    
+            30%,
+            45% {
+                width: 13rem;
+            }
+        }
+    
+        @keyframes text3 {
+    
+            0%,
+            25%,
+            50%,
+            75%,
+            100% {
+                width: 0;
+            }
+    
+            55%,
+            70% {
+                width: 13.5rem;
+            }
+        }
+    
+        @keyframes text4 {
+    
+            0%,
+            25%,
+            50%,
+            75%,
+            100% {
+                width: 0;
+            }
+    
+            80%,
+            95% {
+                width: 18rem;
+            }
+        }
+
+        /* About */
+
+        .shadow {
+            padding: 3rem;
+        }
+
+        .testimonials .carousel-inner .carousel-item .caption p{
+            padding: 0 5rem;
+        }
+
+        /* Blog */
+        .blog .blog-card{
+            margin-bottom: 3rem;
+        }
+
+        /* Contact */
+        .contact .contact-box .content{
+            padding: 3rem;
+        }
+}
+
+@media (min-width: 992px) {
+    header{
+        background-attachment: fixed;
+    }
+
+    .counter{
+        background-attachment: fixed;
+    }
+
+    .testimonials{
+        background-attachment: fixed;
+    }
+
+    .contact{
+        background-attachment: fixed;
+    }
+
+    .testimonials .carousel-inner .carousel-item .caption p {
+        padding: 0 8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .testimonials .carousel-inner .carousel-item .caption p {
+        padding: 0 13rem;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+}
